@@ -6,6 +6,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Cascade;
+import org.hibernate.annotations.CascadeType;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
@@ -35,6 +38,7 @@ public class User {
     private LocalDateTime registrationDate;
 
     @OneToOne
+    @Cascade(CascadeType.ALL)
     private Address address;
 
     @PrePersist
