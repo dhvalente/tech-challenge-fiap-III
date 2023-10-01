@@ -1,4 +1,4 @@
-package br.com.fiap.powersave.exceptions;
+package br.com.fiap.userms.exceptions;
 
 
 public class BrazilianStateNotFound  extends RuntimeException  {

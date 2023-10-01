@@ -1,4 +1,4 @@
-package br.com.fiap.powersave.model.enums;
+package br.com.fiap.userms.enums;
 
 import java.text.Normalizer;
 import java.util.EnumSet;
