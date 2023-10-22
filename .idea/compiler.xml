@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="vehicle-ms" />
+        <module name="parking-ms" />
         <module name="user-ms" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="parking-ms" options="-parameters" />
       <module name="user-ms" options="-parameters" />
       <module name="vehicle-ms" options="-parameters" />
     </option>
