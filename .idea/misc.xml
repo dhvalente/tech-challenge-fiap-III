@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/vehicle-ms/pom.xml" />
         <option value="$PROJECT_DIR$/payment-ms/pom.xml" />
         <option value="$PROJECT_DIR$/billing/pom.xml" />
+        <option value="$PROJECT_DIR$/notification/pom.xml" />
       </list>
     </option>
   </component>
